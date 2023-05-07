@@ -95,6 +95,7 @@ input{
     border-radius: 5px;
     border: 0.1px solid lightgray;
     font-family: 'Roboto';
+    width: 100%;
 }
 
 input::placeholder{
@@ -107,6 +108,7 @@ input::placeholder{
 
 .form-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
 }
