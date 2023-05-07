@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Assets/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(Assets/Merriweather/Merriweather-Light.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+.container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: #545871;
+    width: 30%;
+    height: 100%;
+}
+
+.right{
+    background-color: #F7ECEB;
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content-right{
+    /* border: solid 1px red; */
+    width: 50%;
+}
+
+h1{
+    font-family: 'Merriweather';
+    text-align: left;
+    font-size: 2rem;
+    color: #545871;
+}
+
+.form-content{
+    /* border: solid 2px green; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-family: 'Roboto';
+    color: #545871;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.1px solid lightgray;
+    font-family: 'Roboto';
+}
+
+input::placeholder{
+    color: #EBD0CE;
+}
