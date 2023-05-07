@@ -41,7 +41,7 @@ html {
 }
 
 .left{
-    background-image: url("Assets/image.png");
+    background-image: url("Assets/img/bg-img.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -133,7 +133,7 @@ button{
     font-family: "Merriweather";
     cursor: pointer;
     background-color: #fff;
-    border: 0.1px solid lightgray;
+    border: 0.1px solid #DADBE6;
     transition: .5s;
 }
 
@@ -141,10 +141,17 @@ button:hover{
     background-color: #DADBE6;
 }
 
-.labelInput{
-    width: 320%;
+.title-ent{
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
 }
 
-.labelCity{
-    width: 130%;
+.title-logo{
+    color: #fff;
 }
