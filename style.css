@@ -67,7 +67,14 @@ html {
 
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+}
+
+.title{
+    margin-left: 10%;
+    margin-top: -150px;
+
+    width: 50%;
 }
 
 h1{
@@ -95,7 +102,14 @@ input{
     border-radius: 5px;
     border: 0.1px solid lightgray;
     font-family: 'Roboto';
-    width: 100%;
+    width: 300px;
+}
+
+select{
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.1px solid lightgray;
+    font-family: 'Roboto';
 }
 
 input::placeholder{
@@ -110,15 +124,16 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
+    gap: 30px;
 }
 
 .form{
     width: 80%;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
 }
 
 .content-form-footer{
@@ -137,6 +152,8 @@ button{
     background-color: #fff;
     border: 0.1px solid #DADBE6;
     transition: .5s;
+    font-family: 'Roboto';
+    font-size: 20px;
 }
 
 button:hover{
@@ -157,4 +174,52 @@ button:hover{
 
 .title-logo{
     color: #fff;
+    font-family: 'Roboto';
+    letter-spacing: .1cm;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.labelInput{
+    width: 777px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #DADBE6;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    margin-bottom: 30px;
+}
+
+.fil{
+    width: 30px;
+    height: 30px;
+    background-color: #DADBE6;
+    border-radius: 999px;
+}
+
+.active{
+    width: 20px;
+    height: 20px;
+    border: 10px solid #DADBE6;
+    border-radius: 999px;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -70px;
 }
