@@ -47,6 +47,12 @@ html {
 
     width: 35%;
     height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .right{
@@ -222,4 +228,10 @@ li{
     display: flex;
     justify-content: center;
     margin-left: -70px;
+}
+
+a{
+    color: #DADBE6;
+    font-size: 25px;
+    font-family: 'Roboto';
 }
